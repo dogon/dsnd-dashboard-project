@@ -5,7 +5,7 @@ import pandas as pd
 
 # Using pathlib, create a `db_path` variable
 # that points to the absolute path for the `employee_events.db` file
-db_path = Path(__file__).parent.absolute() / "employee_events.db"
+db_path = Path(__file__).parent.parent.absolute() / "employee_events.db"
 
 
 

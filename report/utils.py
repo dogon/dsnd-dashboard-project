@@ -3,7 +3,8 @@ from pathlib import Path
 
 # Using the Path object, create a `project_root` variable
 # set to the absolute path for the root of this project directory
-#### YOUR CODE HERE
+project_root = Path(__file__).parent.absolute()
+
  
 # Using the `project_root` variable
 # create a `model_path` variable
